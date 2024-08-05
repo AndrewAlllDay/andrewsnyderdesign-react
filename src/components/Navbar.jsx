@@ -11,6 +11,7 @@ const Navbar = () => {
   }
 
   return (  
+    <div className='shadow w-full bg-white'>
     <div className='text-black flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4'>
        <h1 className='w-full text-3xl font-bold'>.andrew</h1>
         <ul className='hidden md:flex text-black space-x-12 font-sans'>
@@ -25,7 +26,7 @@ const Navbar = () => {
           </div>
 
 {/*Mobile Menu Items*/}
-        <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-gray-50 ease-in-out duration-500' : 'fixed left-[-100%]'}>
+        <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-gray-50 ease-in-out duration-500' : 'fixed left-[-100%]'}>
         <h1 className='w-full text-3xl font-bold m-4'>.andrew</h1>
           <ul className='uppercase p-4'>
             <li className='p-4 border-b'><a>About</a></li>
@@ -34,7 +35,7 @@ const Navbar = () => {
           </ul>
           </div> 
     </div>
-    
+    </div>
   );
 }
 
