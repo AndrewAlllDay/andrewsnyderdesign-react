@@ -1,14 +1,12 @@
-
 import React from 'react'
-import Hero from './components/hero.jsx';
 import Navbar from './components/navbar.jsx';
 
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Hero />
+      
+      <h1 className='text-black'>Hello</h1>
     </div>
   );
 }
