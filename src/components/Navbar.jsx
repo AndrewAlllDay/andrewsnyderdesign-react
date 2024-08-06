@@ -17,7 +17,7 @@ const Navbar = () => {
         <ul className='hidden md:flex text-black space-x-12 font-sans'>
           <li className='p-4'><a>About</a></li>
           <li className='p-4'><a href='/work.js'>Work</a></li>
-          <li className='p-4'><a>About</a></li>
+          <li className='p-4'><a><Contact></Contact></a></li>
         </ul>
 
         {/*Mobile Menu Button*/}
