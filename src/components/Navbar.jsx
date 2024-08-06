@@ -31,7 +31,7 @@ const Navbar = () => {
           <ul className='uppercase p-4'>
             <li className='p-4 border-b'><a>About</a></li>
             <li className='p-4 border-b'><a href='/work.js'>Work</a></li>
-            <li className='p-4'><a>About</a></li>
+            <li className='p-4'><a>Contact</a></li>
           </ul>
         </div>
       </div>
