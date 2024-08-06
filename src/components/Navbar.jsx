@@ -22,7 +22,7 @@ const Navbar = () => {
 
         {/*Mobile Menu Button*/}
         <div onClick={handleNav} className='block md:hidden'>
-          {!nav ? <RiCloseLargeLine size={20} /> : < RiMenu3Line size={20} />}
+          {!nav ? <RiMenu3Line size={20} /> : < RiCloseLargeLine size={20} />}
         </div>
 
         {/*Mobile Menu Items*/}
