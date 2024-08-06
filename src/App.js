@@ -5,6 +5,7 @@ import Navbar from './components/navbar.jsx';
 import { Helmet } from "react-helmet";
 import About from './components/about.jsx'
 import Experience from './components/experience.jsx';
+import Footer from './components/footer.jsx';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Hero />
       <About />
       <Experience />
+      <Footer />
     </div>
   );
 }

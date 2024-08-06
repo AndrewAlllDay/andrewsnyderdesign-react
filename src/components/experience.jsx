@@ -2,13 +2,11 @@ import React from 'react'
 
 const experience = () => {
   return (
-    <div className='w-full h-screen'>
-      
-      <div className='flex flex-col justify-center items-center w-full h-full'>
+    <div className='w-full h-screen mt-56 md:mt-0'>
+      <div className='flex flex-row justify-center items-center w-full h-screen'>
       <div className='mb-12'>
-        <p className='text-4xl font-bold border-b-4 border-cyan-500 pb-2'>My Experience</p>
       </div>
-        <div className='min-w-[1000px] grid grid-cols-3 gap-16 '>
+        <div className='min-w-[300px] md:min-w-[1000px] grid grid-cols-1 md:grid-cols-3 gap-16 '>
           <div className='w-full'>
           <div class="max-w-sm min-h-[275px] rounded-lg overflow-hidden shadow-lg">
           <div class="px-10 py-10">
