@@ -12,12 +12,12 @@ const Navbar = () => {
 
   return (
     <div className='shadow w-full bg-white'>
-      <div className='text-black flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4'>
+      <div className='text-black flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 font-Poppins'>
         <h1 className='w-full text-3xl font-bold'>.andrew</h1>
-        <ul className='hidden md:flex text-black space-x-12 font-sans'>
+        <ul className='hidden md:flex text-black space-x-12 font-Poppins'>
           <li className='p-4'><a>About</a></li>
           <li className='p-4'><a href='/work.js'>Work</a></li>
-          <li className='p-4'><a><Contact></Contact></a></li>
+          <li className='p-4'><a>Contact</a></li>
         </ul>
 
         {/*Mobile Menu Button*/}
@@ -27,8 +27,8 @@ const Navbar = () => {
 
         {/*Mobile Menu Items*/}
         <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-gray-50 ease-in-out duration-500' : 'fixed left-[-100%]'}>
-          <h1 className='w-full text-3xl font-bold m-4'>.andrew</h1>
-          <ul className='uppercase p-4'>
+          <h1 className='w-full text-3xl font-bold m-4 font-Poppins'>.andrew</h1>
+          <ul className='uppercase p-4 font-Poppins'>
             <li className='p-4 border-b'><a>About</a></li>
             <li className='p-4 border-b'><a href='/work.js'>Work</a></li>
             <li className='p-4'><a>Contact</a></li>

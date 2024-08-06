@@ -4,7 +4,7 @@ import Hero from './components/hero.jsx';
 import Navbar from './components/navbar.jsx';
 import { Helmet } from "react-helmet";
 import About from './components/about.jsx'
-
+import Experience from './components/experience.jsx';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-
+      <Experience />
     </div>
   );
 }
