@@ -1,11 +1,25 @@
+import React, { useState } from 'react'
+import { RiMenu3Line } from "react-icons/ri";
+import { RiCloseLargeLine } from "react-icons/ri";
+import { Helmet } from "react-helmet";
 import Nav from '../components/Navbar.jsx'
-import Work from '../components/work.jsx'
+import AboutHero from '../components/abouthero.jsx'
 
-export default function About() {
+import Footer from '../components/footer.jsx';
+
+const About = () => {
     return (
-        <div>
+    <div>
+        <Helmet>
+        <meta charSet="utf-8" />
+        <title>Andrew Snyder Design</title>
+        <link rel="canonical" href="http://andrewsnyderdesign.com" />
+      </Helmet>
         <Nav />
-        <Work />
-        </div>
+        <AboutHero />
+        <Footer />
+    </div>
     )
-}
+  };
+  
+  export default About;

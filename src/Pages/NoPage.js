@@ -1,14 +1,12 @@
 import React, { useState } from 'react'
 import { RiMenu3Line } from "react-icons/ri";
 import { RiCloseLargeLine } from "react-icons/ri";
-import Navbar from '../components/Navbar.jsx';
-import Hero from '../components/hero.jsx';
 import { Helmet } from "react-helmet";
-import About from '../components/about.jsx';
-import Experience from '../components/experience.jsx';
+import Nav from '../components/Navbar.jsx';
 import Footer from '../components/footer.jsx';
 
-const Home = () => {
+
+const NoPage = () => {
     return (
     <div>
         <Helmet>
@@ -16,13 +14,11 @@ const Home = () => {
         <title>Andrew Snyder Design</title>
         <link rel="canonical" href="http://andrewsnyderdesign.com" />
       </Helmet>
-        <Navbar />
-        <Hero />
-        <About />
-        <Experience />
+        <Nav />
+        <h1>Oops</h1>
         <Footer />
     </div>
     )
   };
   
-  export default Home;
+  export default NoPage;
