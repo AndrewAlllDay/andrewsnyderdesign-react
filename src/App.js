@@ -1,10 +1,11 @@
 
 import React from 'react'
 import Hero from './components/hero.jsx';
-import Navbar from './components/navbar.jsx';
+import Navbar from './components/Navbar.jsx';
 import { Helmet } from "react-helmet";
 import About from './components/about.jsx'
 import Experience from './components/experience.jsx';
+import Work from './components/work.jsx';
 import Footer from './components/footer.jsx';
 
 
@@ -20,6 +21,7 @@ function App() {
       <Hero />
       <About />
       <Experience />
+      <Work />
       <Footer />
     </div>
   );
