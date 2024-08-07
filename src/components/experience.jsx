@@ -19,9 +19,9 @@ const experience = () => {
                           <hr className='w-[40px] mx-auto mb-2.5' />
                           <li className='mb-2.5 text-sm font-Poppins'>10+ years of professional experience</li>
                           <hr className='w-[40px] mx-auto mb-2.5' />
-                          <li className='mb-2.5 text-sm font-Poppins5'>Masteful in the Adobe Design Suite</li>
+                          <li className='mb-2.5 text-sm font-Poppins'>Masterful in the Adobe Design Suite</li>
                           <hr className='w-[40px] mx-auto mb-2.5' />
-                          <li>Proficient in Figma and Sketch</li>
+                          <li className='mb-2.5 text-sm font-Poppins'>Proficient in Figma and Sketch</li>
                         </ul>
                       </p>
                     </div>

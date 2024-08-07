@@ -14,9 +14,9 @@ const Navbar = () => {
       <div className='text-black flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 font-Poppins'>
         <h1 className='w-full text-3xl font-bold'>.andrew</h1>
         <ul className='hidden md:flex text-black space-x-12 font-Poppins'>
-          <li className='p-4'><a href='src/About.js'>About</a></li>
-          <li className='p-4'><a href='/work.js'>Work</a></li>
-          <li className='p-4'><a>Contact</a></li>
+          <li className='p-4 hover:text-white'><a href='src/About.js'>About</a></li>
+          <li className='p-4 hover:text-white'><a href='/work.js'>Work</a></li>
+          <li className='p-4 hover:text-white'><a href='/'>Contact</a></li>
         </ul>
 
         {/*Mobile Menu Button*/}
@@ -30,7 +30,7 @@ const Navbar = () => {
           <ul className='uppercase p-4 font-Poppins'>
             <li className='p-4 border-b'><a href='/about.js'>About</a></li>
             <li className='p-4 border-b'><a href='/work.js'>Work</a></li>
-            <li className='p-4'><a>Contact</a></li>
+            <li className='p-4'><a href='/'>Contact</a></li>
           </ul>
         </div>
       </div>
