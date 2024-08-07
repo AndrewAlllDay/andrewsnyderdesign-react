@@ -1,31 +1,27 @@
-
-import React from 'react'
-import Hero from './components/hero.jsx';
-import Navbar from './components/Navbar.jsx';
-import { Helmet } from "react-helmet";
-import About from './components/about.jsx'
-import Experience from './components/experience.jsx';
-import Work from './components/work.jsx';
-import Footer from './components/footer.jsx';
+import React, { useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Work from './Pages/Work';
+import Contact from './Pages/Contact';
 
 
-function App() {
+
+
+const App = () => {
   return (
-    <div>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Andrew Snyder Design</title>
-        <link rel="canonical" href="http://andrewsnyderdesign.com" />
-      </Helmet>
-      <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Work />
-      <Footer />
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
-}
-
+};
 
 export default App;

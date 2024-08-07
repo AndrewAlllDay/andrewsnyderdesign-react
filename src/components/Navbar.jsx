@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { RiMenu3Line } from "react-icons/ri";
 import { RiCloseLargeLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -12,11 +13,17 @@ const Navbar = () => {
   return (
     <div className='shadow w-full bg-white'>
       <div className='text-black flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 font-Poppins'>
-        <h1 className='w-full text-3xl font-bold'>.andrew</h1>
+        <h1 className='w-full text-3xl font-bold'><Link exact to="/">.andrew</Link></h1>
         <ul className='hidden md:flex text-black space-x-12 font-Poppins'>
-          <li className='p-4 hover:text-white'><a href='.'>About</a></li>
-          <li className='p-4 hover:text-white'><a href='/s'>Work</a></li>
-          <li className='p-4 hover:text-white'><a href='/'>Contact</a></li>
+            <li>
+              <Link exact to="/about">About</Link>
+            </li>
+            <li>
+              <Link exact to="/work">Work</Link>
+            </li>
+            <li>
+              <Link exact to="/contact">Contact</Link>
+            </li>
         </ul>
 
         {/*Mobile Menu Button*/}
@@ -26,11 +33,17 @@ const Navbar = () => {
 
         {/*Mobile Menu Items*/}
         <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-gray-50 ease-in-out duration-500' : 'fixed left-[-100%]'}>
-          <h1 className='w-full text-3xl font-bold m-4 font-Poppins'>.andrew</h1>
+          <h1 className='w-full text-3xl font-bold m-4 font-Poppins'><Link exact to="/">.andrew</Link></h1>
           <ul className='uppercase p-4 font-Poppins'>
-            <li className='p-4 border-b'><a href='/'>About</a></li>
-            <li className='p-4 border-b'><a href='/'>Work</a></li>
-            <li className='p-4'><a href='/'>Contact</a></li>
+          <li>
+              <Link exact to="/about">About</Link>
+            </li>
+            <li>
+              <Link exact to="/work">Work</Link>
+            </li>
+            <li>
+              <Link exact to="/contact">Contact</Link>
+            </li>
           </ul>
         </div>
       </div>
