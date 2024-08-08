@@ -7,22 +7,25 @@ import { Helmet } from "react-helmet";
 import About from '../components/about.jsx';
 import Experience from '../components/experience.jsx';
 import Footer from '../components/footer.jsx';
-import Nav from '../components/Navbar.jsx'
+import Nav from '../components/Navbar.jsx';
+import Masonry from '../components/masonry.jsx';
+
 
 
 const Work = () => {
-    return (
+  return (
     <div>
-        <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
         <title>Andrew Snyder Design</title>
         <link rel="canonical" href="http://andrewsnyderdesign.com" />
       </Helmet>
-        <Nav />
+      <Nav />
 
-        <Footer />
+      <Masonry />
+      <Footer />
     </div>
-    )
-  };
-  
-  export default Work;
+  )
+};
+
+export default Work;
