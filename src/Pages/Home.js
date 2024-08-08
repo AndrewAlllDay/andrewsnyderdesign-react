@@ -1,6 +1,4 @@
-import React, { useState } from 'react'
-import { RiMenu3Line } from "react-icons/ri";
-import { RiCloseLargeLine } from "react-icons/ri";
+import React from 'react'
 import Navbar from '../components/Navbar.jsx';
 import Hero from '../components/hero.jsx';
 import { Helmet } from "react-helmet";

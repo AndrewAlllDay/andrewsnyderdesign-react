@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import { RiMenu3Line } from "react-icons/ri";
-import { RiCloseLargeLine } from "react-icons/ri";
 import { Helmet } from "react-helmet";
 import Nav from '../components/Navbar.jsx';
 import Footer from '../components/footer.jsx';

@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Work from './Pages/Work';
 import Contact from './Pages/Contact';
+import Menu from './Projects/Menu/Menu';
 import NoPage from './Pages/NoPage';
 
 
@@ -19,11 +20,14 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/work" element={<Work />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/projects/menu" element={<Menu />} />
           <Route path="*" element={<NoPage />} />
+          
         </Routes>
       </BrowserRouter>
     </>
   );
 };
+
 
 export default App;
