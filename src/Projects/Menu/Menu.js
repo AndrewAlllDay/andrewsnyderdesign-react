@@ -12,7 +12,7 @@ const Menu = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Project | Carlo's Trattoria Menu</title>
-        <link rel="canonical" href="http://andrewsnyderdesign.com" />
+        <link rel="canonical" href="http://andrewsnyderdesign.com/projects/menu" />
       </Helmet>
       <Nav />
       <Projectheader />
