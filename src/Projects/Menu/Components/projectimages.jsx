@@ -24,7 +24,7 @@ const projectimages = () => {
     <div className=' w-full h-[300px] mx-auto text-center flex flex-col justify-center'>
         <div className=' flex flex-col md:flex-row justify-center mx-auto w-[75%] md:space-x-5'>
             <div className='w-full md:w-1/2 h-[100px] md:h-[100px] text-right flex flex-col'>
-                <h1 className=' border-white text-2xl font-Poppins font-semibold pr-5'>Project:</h1>
+                <h1 className=' border-white text-2xl font-Poppins font-semibold pr-5'>Client:</h1>
             </div>
             <div className='md:w-1/2 w-full flex flex-col text-left'>
                 <h1 className=' border-white text-xl font-Poppins mt-[4px]'>Carlo's Trattoria</h1>

@@ -11,7 +11,7 @@ const projectheader = () => {
                 <h1 className='border-r-4 border-white text-4xl font-Poppins font-bold pr-5'>Project </h1>
             </div>
             <div className='md:w-1/2 w-full flex flex-col justify-center text-left text-2xl font-bold'>
-            <ReactTyped className='text-left text-2xl font-bold' strings={['Restaurant Menu']} typeSpeed={20} />
+            <ReactTyped className='text-left text-2xl font-bold' strings={['Restaurant Menu']} typeSpeed={50} />
             </div>
         </div>
     </div>
