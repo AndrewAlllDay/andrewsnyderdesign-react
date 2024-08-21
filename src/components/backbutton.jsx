@@ -1,16 +1,13 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const BackButton = () => {
-  const history = useNavigate();
-
-  const handleGoBack = () => {
-    history.goBack();
-  };
+function backbutton() {
+  const navigate = useNavigate();
 
   return (
-    <button onClick={handleGoBack}>Back</button>
+    <>
+      <button onClick={() => navigate(-1)}>go back</button>
+    </>
   );
 };
 
-export default BackButton;
+export default backbutton
