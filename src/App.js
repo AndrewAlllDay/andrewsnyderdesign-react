@@ -5,6 +5,7 @@ import About from './Pages/About';
 import Work from './Pages/Work';
 import Contact from './Pages/Contact';
 import Menu from './Projects/Menu/Menu';
+import RetainBanner from './Projects/Retain Branding/Retain'
 import NoPage from './Pages/NoPage';
 
 
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/work" element={<Work />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/work/menu" element={<Menu />} />
+          <Route path="/work/retain-banner" element={<RetainBanner />} />
           <Route path="*" element={<NoPage />} />
           
         </Routes>
